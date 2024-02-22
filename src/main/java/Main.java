@@ -3,7 +3,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import java.util.List;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -15,9 +15,9 @@ public class Main {
         session.beginTransaction();
 
         //Create a new student
-        //Student student = new Student();
-        //student.setName("Simona");
-        //session.save(student);
+//        Student student = new Student();
+//        student.setName("Simona");
+//        session.save(student);
 
         //Get student by id
         //Student student = session.get(Student.class, 1);
